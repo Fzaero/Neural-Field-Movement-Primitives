@@ -30,7 +30,7 @@ def task_loss_with_deform2(model_output, gt):
     deform = model_output['deform']
     return {'rgb' :((model_output['rgb']-gt['rgb'])**2).mean() * 3e4, 
             'mp' : ((model_output['mp']-gt['mp'])**2).mean() * 1e5, 
-            'deform': deform.norm(dim=-1).mean()*1e-1,       
+            'deform': deform.norm(dim=-1).mean()*1e-4,       
             'embeddings_constraint': embeddings_constraint.mean() * 1e5,
            }
 

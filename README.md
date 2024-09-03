@@ -9,6 +9,11 @@ First setup pytorch. Then use the following command to install other packages.
 ```
 pip install -r requirements.txt
 ```
+## Data and Pretrained Models
+
+Data Link: https://drive.google.com/file/d/1ue6lBsQs_WLiE_rLx6MZ_smOHZqGyY7B/view?usp=sharing
+
+Model Link: https://drive.google.com/file/d/167-3jwc-WuiIooFoKKm1mPfyeforIT1e/view?usp=sharing
 
 ## Future Todo List
 
